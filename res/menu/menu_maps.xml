@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/item_virtual_entity"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_virtuel"/>
+    
+    <item
+        android:id="@+id/item_static_entity"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_static"/>
+    
+    <item
+        android:id="@+id/item_dynamic_entity"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_dynamic"/>
+</menu>
