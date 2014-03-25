@@ -50,17 +50,6 @@ public class MapsActivity extends MainActivity {
 		this.mDrawerLayout.closeDrawer(listMenu);				
 	}
 
-	@Override
-	public boolean onActionDropFromMenu() {		
-		
-		IEntity entity = new DynamicEntity();
-
-		entity.setRepresentation(new Representation(R.drawable.logoagetac72));
-		entity.setLibelle("test");
-		
-		((IBackground) getFragment()).addEntity(entity);
-		return true;
-	}
 }
 
 
