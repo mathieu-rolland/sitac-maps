@@ -25,6 +25,12 @@ public class MapsActivity extends MainActivity {
 	}
 	
 	@Override
+	public void onResume() {
+		super.onResume();
+		loadEntities();
+	}
+	
+	@Override
 	public void onItemMenuClicked(int position, View view) {
 		
 	}
