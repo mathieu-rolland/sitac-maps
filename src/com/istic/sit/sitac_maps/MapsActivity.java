@@ -5,6 +5,7 @@ import android.view.View;
 import android.view.View.DragShadowBuilder;
 import com.istic.sit.R;
 import com.istic.sit.framework.api.model.IEntity;
+import com.istic.sit.framework.couch.DataBaseCommunication;
 import com.istic.sit.framework.model.DynamicEntity;
 import com.istic.sit.framework.model.Representation;
 import com.istic.sit.framework.view.MainActivity;
@@ -15,6 +16,7 @@ public class MapsActivity extends MainActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
+		DataBaseCommunication.BASE_URL = "http://148.60.11.236:5984/sitac/";
 		initializeBackground(TypeBackgroundEnum.Map, savedInstanceState);
 	}
 	
