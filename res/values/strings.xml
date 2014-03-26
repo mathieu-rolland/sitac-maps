@@ -9,6 +9,6 @@
     <!-- Nav Drawer Menu Items -->
     <string name="menu_dynamic">Entite Dynamique</string>
     <string name="menu_virtuel">Entite Virtuelle</string>
-    <string name="menu_static">sEntite Statique</string>
+    <string name="menu_static">Entite Statique</string>
    
 </resources>
