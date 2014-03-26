@@ -28,6 +28,7 @@ public class MapsActivity extends MainActivity {
 	public void onResume() {
 		super.onResume();
 		loadEntities();
+		startServiceSynchronisation();
 	}
 	
 	@Override
