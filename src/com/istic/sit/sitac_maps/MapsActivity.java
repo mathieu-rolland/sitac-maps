@@ -36,15 +36,16 @@ public class MapsActivity extends MainActivity {
 	public void onCreateSlideMenu()
 	{		
 		IEntity entityDynamic = new DynamicEntity();
-		entityDynamic.setLibelle(getResources().getString(R.string.menu_dynamic));
+		entityDynamic.setLibelle("Camion");
 		entityDynamic.setRepresentation(new Representation(R.drawable.ic_camion));
 		
 		IEntity entityVirtuel = new DynamicEntity();
-		entityVirtuel.setLibelle(getResources().getString(R.string.menu_virtuel));
+		entityVirtuel.setLibelle("Bouche incendie");
 		entityVirtuel.setRepresentation(new Representation(R.drawable.ic_bouche_incendie));
 		
 		IEntity entityStatic = new DynamicEntity();
-		entityStatic.setLibelle(getResources().getString(R.string.menu_static));
+		entityStatic.setLibelle("Agetac power");
+		entityStatic.setRepresentation(new Representation(R.drawable.logoagetac42));
 		
 		this.addItemMenu(entityDynamic);
 		this.addItemMenu(entityVirtuel);
